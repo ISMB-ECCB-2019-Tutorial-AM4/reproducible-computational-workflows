@@ -26,3 +26,6 @@ Before the conference starts, please follow the instructions [here](https://gith
 | 11:15 - 11:45 | [Binder](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/5-binder) | | |
 | 11:45 - 12:45 | [Projects](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects) | | |
 | 12:45 - 13:00 | Wrap Up | | |
+
+### Contact Us
+If you encounter any problems with this repository, please report them [here](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/issues).
