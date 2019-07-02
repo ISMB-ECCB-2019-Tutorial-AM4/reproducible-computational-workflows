@@ -3,8 +3,11 @@
 ## ISMB / ECCB 2019, July 21, Basel, Switzerland
 
 __Peter W. Rose__, _Director, Structural Bioinformatics Lab, San Diego Supercomputer Center, UC San Diego, United States_
+
 __Tim Head__, _Project member Jupyter Hub & mybinder.org and Wild Tree Tech, Brugg, Switzerland_
+
 __Fergus Boyles__, _Oxford Protein Informatics Group, Department of Statistics, University of Oxford, United Kingdom_
+
 __Fergus Imrie__, _Oxford Protein Informatics Group, Department of Statistics, University of Oxford, United Kingdom_
 
 ### Introduction
