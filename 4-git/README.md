@@ -1,6 +1,4 @@
-# Introduction Git and GitHub
-
-## Local version control using Git
+# Version control and backup using git and GitHub
 
 First, let's create a directory for our project and add a readme file:
 
