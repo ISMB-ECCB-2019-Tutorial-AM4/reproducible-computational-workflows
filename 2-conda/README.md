@@ -2,7 +2,7 @@
 
 We'll be using conda to create an isolated Python installation. Here we'll demonstrate (1) how to create a new conda environment from scratch, (2) how to export it so that others can create the same environment, (3) how to install an environment someone else has created.
 
-__ 1. New conda environment from scratch __
+__1. New conda environment from scratch__
 
 We can create a new environment with the following steps either in a terminal (MacOS/Linux) or Anaconda prompt (Windows):
 
@@ -40,7 +40,7 @@ We could also have specified which version of scipy to install:
 conda install scipy=1.2.1
 ```
 
-__ 2. Export conda environment __
+__2. Export conda environment__
 
 We can export a `.yml` file containing a list of all of the packages in our environment. This will allow conda to recreate an identical environment elsewhere. This is done using the following command while the environment is active:
 
@@ -48,7 +48,7 @@ We can export a `.yml` file containing a list of all of the packages in our envi
 conda env export > my-first-env.yml
 ```
 
-__ 3. Install conda environment __
+__3. Install conda environment__
 
 If you followed the instructions provided in the prerequisites, you will already have created an environment using a `.yml` file.
 Let's create a new environment that is the same as the above environment, using the `.yml` file that we produced.
