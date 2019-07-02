@@ -18,6 +18,7 @@ Before the conference starts, please follow the instructions [here](https://gith
 ### Schedule
 
 | Time | Topic | Slides | Notebook |
+|:---:|:---:|:---:|:---:|
 | 9:00 - 9:30 | [Introduction](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/1-introduction) | | |
 | 9:30 - 9:45 | [Conda](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/2-conda) | | |
 | 9:45 - 10:15 | [Jupyter](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/3-jupyter) | | |
