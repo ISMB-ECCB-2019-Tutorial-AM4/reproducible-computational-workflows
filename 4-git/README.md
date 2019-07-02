@@ -39,13 +39,6 @@ You've already created a local copy of a GitHub repository when you cloned the m
 local copy of both the project and the git repository, which you can then interact with locally using git. We can also go the 
 other way around and host a copy of our local repository on GitHub.
 
-To speed things up we can configure git locally with out GitHub username and email address to save having to enter these each time we interact with GitHub.
-
-```
-git config --global user.name <username>
-git config --global user.email <email>
-```
-
 First we need to create an empty repository on GitHub. You can find instructions for how to do this [here](https://help.github.com/en/articles/creating-a-new-repository).
 To avoid errors when uploading our local repository, don't initialise this repository with a README, licence, or `.gitignore`. These can be added later.
 
