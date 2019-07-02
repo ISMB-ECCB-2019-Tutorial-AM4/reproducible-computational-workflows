@@ -70,7 +70,7 @@ git push origin master
 
 - `push` tells git to upload the changes to a remote server and merge them into the repository
 - `origin` tells git to push to the remote origin we set previously
-- `master' tells git to push to the master branch
+- `master` tells git to push to the master branch
 
 Great, now our code is under version control locally and backed up remotely on GitHub.
 
