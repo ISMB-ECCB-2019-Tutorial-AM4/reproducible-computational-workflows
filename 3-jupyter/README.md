@@ -4,7 +4,7 @@ For the demonstration we'll be using JupyterLab, a browser-based computational e
 
 __1. Launching JupyterLab__
 
-To launch JupyterLab, run the following from terminal (MacOS) or Anaconda prompt (Windows):
+To launch JupyterLab, run the following from terminal (MacOS/Linux) or Anaconda prompt (Windows):
 ```
 jupyter-lab
 ```
@@ -21,3 +21,8 @@ The Jupyter Notebook is running at:
 http://localhost:xxxx/?token=sometoken
 ```
 In this url, xxxx is the port Jupyter is running on and "sometoken" is a security token used to access the notebook. You should be able to access the Jupyter session by navigating to this link using your favourite browser. If you close your browser, you can return to the Jupyter session by navigating to this link as long as the kernel is still running in your termnial.
+
+__3. Closing a Notebook__
+
+The easiest way to close all notebooks is to shut the JupyterLab GUI and then pressing `CTRL+C` within the terminal (MacOS/Linux) or Anaconda prompt (Windows) that you launched JupyterLab from.
+Alternatively, you can shutdown individual kernels from within the JupyterLab GUI. 
