@@ -1,4 +1,8 @@
-# Version control and backup using git and GitHub
+# Version control and repository hosting using git and GitHub
+
+In this section of the tutorial we'll cover the basics of using git for version control on our local codebase. We'll then go over hosting our git repository on GitHub, and pushing and pulling changes between the local and remote repositories. We'll finish by forking a project on GitHub, creating a development branch, implementing some changes, and merging our changes with the master branch hosted on GitHub. We'll do all of this in a Jupyter notebook to demonstrate how notebooks are hosted on GitHub.
+
+## Introduction to git and GitHub
 
 First, let's create a directory for our project and add a readme file:
 
@@ -80,3 +84,5 @@ git pull origin master
 
 `pull` tells git to download changes from the remote repository and merge them into our local repository. 
 Just like `push` we can specify which remote server and branch we want to pull from.
+
+## 
