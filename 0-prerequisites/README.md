@@ -4,6 +4,8 @@ We will make use of several pieces of software in the tutorial. The below instru
 
 In addition, you will need to download materials for use in the workshop, and create a python environment using conda.
 
+Finally, you will need to create a GitHub account if you don't already have one.
+
 __Software Installation:__
 
 1. Conda ([Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [MacOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)) 
