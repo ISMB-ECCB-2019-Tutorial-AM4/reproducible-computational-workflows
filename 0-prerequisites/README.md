@@ -4,14 +4,14 @@ We will make use of several pieces of software in the tutorial. The below instru
 
 In addition, you will need to download materials for use in the workshop, and create a python environment using conda.
 
-You will also need to create a GitHub account if you don't already have one.
-
 __Software Installation:__
 
 1. Conda ([Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html), [MacOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html), [Linux](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)) 
 
 We'll be using conda to create an isolated Python installation. If you don't have a conda installation, you can follow the instructions [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 We recommend installing Miniconda rather than Anaconda as it is much smaller, and we'll be installing the specific python packages we need later anyway.
+
+__Windows users__: To use conda, you'll first need to launch an Anaconda prompt session. This will provide a shell-like environment from which you can access your conda installation and environments.
 
 If you already have a conda installation, you'll want to make sure both conda and conda build are reasonably up-to-date. You can update conda and conda build in a Terminal window (MacOS, Linux) or Anaconda prompt (Windows) by running:
 ```
@@ -26,9 +26,9 @@ conda install conda-build
 
 2. Git ([all platforms](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 
-We will be using git for version control. Installation instructions for all platforms can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+We will be using git for version control. Installation instructions for all platforms can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You will also need to create a GitHub account if you don't already have one.
 
-If you are working on Windows, we strongly recommend installing Git BASH. This will provide a shell-like environment that emulates BASH and allows you to use the command line. You won't have access to git from Anaconda prompt, or conda from Git BASH. If you want to use git make sure you're in Git BASH. If you want to use conda (including Jupyter) make sure you're in Anaconda prompt. We recommend keeping both open so that you can navigate between the two.
+__Windows users__: If you are working on Windows, we strongly recommend installing Git BASH. This will provide a shell-like environment that emulates BASH and allows you to use the command line. You won't have access to git from Anaconda prompt, or conda from Git BASH. If you want to use git make sure you're in Git BASH. If you want to use conda (including Jupyter) make sure you're in Anaconda prompt. We recommend keeping both open so that you can navigate between the two.
 
 
 __Materials and Environment Setup:__
