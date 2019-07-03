@@ -41,7 +41,7 @@ cd reproducible-computational-workflows
 
 2. Create a conda environment for the workshop:
 
-The file `ismb2019.yml` specifies the python version and all packages used when running the notebooks. To create the conda environment from a Terminal window or Anaconda prompt, run:
+The file `environment.yml` specifies the python version and all packages required to run all of the notebooks in today's tutorial. To create the conda environment from a Terminal window or Anaconda prompt, run:
 ```
-conda env create -f 0-prerequisites/ismb2019.yml
+conda env create -f 0-prerequisites/environment.yml
 ```
