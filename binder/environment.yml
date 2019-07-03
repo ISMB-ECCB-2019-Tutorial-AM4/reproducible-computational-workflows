@@ -9,7 +9,5 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
-  - jupyter
-  - jupyterlab
-  - nb_conda_kernels
+  - ipywidgets==7.4.2
   - py3dmol
