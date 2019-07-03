@@ -53,10 +53,10 @@ where the files are stored.
 git remote add origin <repo url>
 ```
 
-For example, using my GitHub account:
+For example, using your personal GitHub account:
 
 ```
-git remote add origin https://github.com/FBoyles/my-first-repo.git
+git remote add origin https://github.com/<username>/my-first-repo.git
 ```
 
 Finally, we can push our local changes to the remote repository using the `git push` command:
