@@ -1,7 +1,5 @@
 # Prerequisites
 
-These prerequisites must be installed prior to attending the tutorial!j
-
 __GitHub Account__
 
 We will host public software repositories on GitHub. If you do not have a GitHub account, sign up for a [free Personal user account](https://github.com/join).
@@ -32,12 +30,22 @@ We will be using git for version control. Installation instructions for all plat
 
 __Windows users__: If you are working on Windows, we strongly recommend installing Git BASH. This will provide a shell-like environment that emulates BASH and allows you to use the command line. You won't have access to git from Anaconda prompt, or conda from Git BASH. If you want to use git make sure you're in Git BASH. If you want to use conda (including Jupyter) make sure you're in Anaconda prompt. We recommend keeping both open so that you can navigate between the two.
 
+**3. Download workshop materials**
 
-__3. Create a conda environment__
+Download all materials by cloning this repository
+```
+git clone https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows
+cd reproducible-computational-workflows
+```
+
+**4. Create a conda environment**
 
 The file `environment.yml` specifies the Python version and all packages required by the tutorial. To create the conda environment from a Terminal window or Anaconda prompt, run:
 ```
 conda env create -f 0-prerequisites/environment.yml
 ```
+**5. Bring your own project (optionally)**
+
+As part of the tutorial each participant will create a Git repository and share runnable Jupyter Notebooks on mybinder.org. We will provide simple sample Notebooks to work on, but if you have any Jupyter Notebooks that would like to work on, please bring them with you.
 
 If you have any questions, please contact Peter Rose, pwrose@ucsd.edu
