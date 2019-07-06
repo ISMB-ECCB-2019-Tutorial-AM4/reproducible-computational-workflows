@@ -34,6 +34,8 @@ https://github.com/<username>/reproducible-computational-workflows
 
 7. Save this README file (File -> Save Markdown File)
 
+8. Preview this README file (Right Click [Windows], Ctrl+Click [MacOS] -> Show Markdown Preview)
+
 8. Add, commit, and push your changes to your forked repository ([see](../4-git/README.md))
 
 9. In your web browser open
