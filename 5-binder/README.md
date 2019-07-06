@@ -4,20 +4,43 @@
 
 ## Hands-On Excercise
 
-### Excercise 1: Add a launch binder badge for a specific Jupyter Notebook
+### Add a binder badge for a specific Jupyter Notebook
 
-1. Go to [mybinder.org](https://mybinder.org) and paste in the name of your repository
-2. Paste in the path to a specific Jupyter Notebook of your choice
-3. Copy the launch button text snippet from mybinder.org
-4. Open **this README.md** file in Jupyter Lab (can be used to edit and preview README.md files)
+1. Go to [mybinder.org](https://mybinder.org) and paste in the URL of your forked repository
+```
+https://github.com/<username>/reproducible-computational-workflows
+```
+
+
+2. Paste in the path to a specific Jupyter Notebook of your choice, e.g.
+```
+3-jupyter/3D_visualization.ipynb
+```
+
+
+3. Copy the binder badge text snippet from mybinder.org
+
+4. Open **this README.md** file in Jupyter Lab
+
 5. Paste the text snippet below
-6. Save the README file (File -> Save Markdown File)
-7. Push your changes to your Github repository (git push origin master)
-8. In Github, click on your launch binder button
-    
+ 
 *your Jupyter Notebook launch badge goes here ...*
 
-### Excercise 2: Add a **launch binder** badge for Jupyter Lab
+### Add a binder badge for Jupyter Lab
+
+6. Next, copy and paste the text snippet bewlow and modify it to launch Jupyter Lab without a specific notebook
 
 *your Jupyter Lab launch badge goes here ...*
+
+7. Save this README file (File -> Save Markdown File)
+
+8. Add, commit, and push your changes to your forked repository ([see](../4-git/README.md))
+
+9. In your web browser open
+```
+https://github.com/<username>/reproducible-computational-workflows
+```
+
+
+10. Navigate to the ```5-binder``` folder and click on one of launch binder badges
 
