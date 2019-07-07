@@ -22,13 +22,13 @@ Before the conference starts, please follow the instructions [here](https://gith
 
 | Time | Topic | Slides | Notebook |
 |:---:|:---:|:---:|:---:|
-| 9:00 - 9:30 | [Introduction](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/1-introduction) | | |
-| 9:30 - 9:45 | [Conda](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/2-conda) | | |
-| 9:45 - 10:15 | [Jupyter](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/3-jupyter) | | |
-| 10:15 - 11:00 | [Git and GitHub](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/4-git) | | |
-| 11:15 - 11:45 | [Binder](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/5-binder) | | |
-| 11:45 - 12:45 | [Projects](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects) | | |
-| 12:45 - 13:00 | Wrap Up | | |
+| 9:00 - 9:30 | [Introduction](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/1-introduction) | [here](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/1-introduction/Introduction.pdf) | - |
+| 9:30 - 9:45 | [Conda](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/2-conda) | - | - |
+| 9:45 - 10:15 | [Jupyter](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/3-jupyter) | - | <ul><li>[jupyter-intro](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/3-jupyter/jupyter-intro.ipynb)</li><li>[3D Visualization](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/3-jupyter/3D_visualization.ipynb)</li></ul> |
+| 10:15 - 11:00 | [Git and GitHub](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/4-git) | TBU | - |
+| 11:15 - 11:45 | [Binder](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/5-binder) | [here](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/5-binder/Binder.pdf) | - |
+| 11:45 - 12:45 | [Projects](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects) | TBU | - |
+| 12:45 - 13:00 | Wrap Up | TBU | - |
 
 ### Contact Us
 If you encounter any problems with this repository, please report them [here](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/issues).
