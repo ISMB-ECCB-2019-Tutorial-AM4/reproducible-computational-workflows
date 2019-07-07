@@ -1,5 +1,17 @@
 # Conda
 
+## Overview
+
+Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux.
+
+Conda installs, runs, and updates packages and their dependencies, while checking compatibility with all preexisting packages. This is in stark contrast to pip, which installs all Python package dependencies required, whether or not those conflict with other packages previously installed. 
+
+In addition, Conda allow you to create, save, load and switch between multiple environments on your local computer, as well as share instructions for how to recreate that environment on a different computer.
+
+While Conda was originally created for Python programs, it can package and distribute software for any language (e.g. R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN).
+
+## Guide
+
 We'll be using conda to create an isolated Python installation that will form the basis of our reproducible workflow. We'll demonstrate (1) how to create a new conda environment from scratch, (2) how to export an environment so that others can create the same environment, (3) how to install an environment someone else has created.
 
 __1. New conda environment from scratch__
