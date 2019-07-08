@@ -21,7 +21,7 @@ Before the conference starts, please follow the instructions [here](https://gith
 ### Schedule
 
 | Time | Topic | Key Materials |
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 | 9:00 - 9:30 | [Introduction](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/1-introduction) | [Slides](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/1-introduction/Introduction.pdf) | 
 | 9:30 - 9:45 | [Conda](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/2-conda) | [Instructions](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/2-conda) |
 | 9:45 - 10:15 | [Jupyter](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/3-jupyter) | <ul style="list-style: none;"><li>[Instructions]((https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/3-jupyter)</li><li>[Intro Notebook](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/3-jupyter/jupyter-intro.ipynb)</li><li>[3D Visualization Notebook](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/blob/master/3-jupyter/3D_visualization.ipynb)</li></ul>|
