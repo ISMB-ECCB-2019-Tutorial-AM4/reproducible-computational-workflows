@@ -37,6 +37,7 @@ Let's go ahead and update the repository to include our readme:
 git add README.md
 git commit -m 'initial commit'
 ```
+
 __Remote backup on GitHub__
 
 You've already created a local copy of a GitHub repository when you cloned the material for this tutorial. Cloning a repository creates a 
@@ -119,9 +120,3 @@ git remote set-url <remote name> <remote url>
 - `remote url` is the new url we wish to set the remote to, in this case it's the url of our fork.
 
 We can now push and pull changes between the cloned repository and our fork on GitHub.
-
-__Creating a new branch__
-
-__Merging branches__
-
-__Merging forks and pull requests__
