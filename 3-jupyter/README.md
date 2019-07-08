@@ -1,6 +1,6 @@
 # Jupyter
 
-For the demonstration we'll be using JupyterLab, a browser-based computational environment that marries full support for jupyter notebooks with a host of handy features, such as a file browser, console, and support for multiple notebooks and test files in tabs. If you appreciate the interactivity of Jupyter notebooks but want some of the powerful features normally found in an IDE, we recommend giving JupyterLab a try.
+For the demonstration we'll be using JupyterLab, a browser-based computational environment that marries full support for jupyter notebooks with a host of handy features, such as a file browser, console, and support for multiple notebooks and text files in tabs. If you appreciate the interactivity of Jupyter notebooks but want some of the powerful features normally found in an IDE, we recommend giving JupyterLab a try.
 
 __1. Launching JupyterLab__
 
@@ -10,10 +10,16 @@ jupyter-lab
 ```
 
 You do not need to be within a conda environment in order to have access to your conda environments, but if you don't have jupyter installed within your base conda environment, you will need to activate a conda environment with jupyter first.
+```
+source activate ismb2019 # MacOS/Linux
+conda activate ismb2019  # Windows
+
+jupyter-lab
+```
 
 __2. Opening a Notebook__
 
-From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading `jupyter-test.ipynb` and experimenting with the features available.
+From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading `jupyter-intro.ipynb` and experimenting with the features available.
 
 Note: when you run jupyter it will set up a notebook server locally on your machine, launch your default browser, and navigate to the noteook server. If your browser doesn't launch, you can get the link to the browser from the terminal output. You should see something like this:
 ```

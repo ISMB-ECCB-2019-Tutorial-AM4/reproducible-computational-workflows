@@ -1,0 +1,16 @@
+name: ismb2019
+channels:
+  - conda-forge
+  - rmg
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - ipywidgets==7.4.2
+  - jupyter
+  - jupyterlab
+  - nb_conda_kernels
+  - py3dmol
