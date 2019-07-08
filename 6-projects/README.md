@@ -124,17 +124,19 @@ git push origin master
 
 ## Test your project
 
-1. Open your Git project in a web browser and click "Launch Binder".
+1. Open your Git project in a web browser and click the "Launch Binder" badge.
 
 2. Wait, wait, ... it may take several minutes to build a binder image ... until Jupyter launches.
 
 3. Run your Notebooks on MyBinder
 
-Congratulations, you've created and hosted your first Jupyter Notebook on Binder! 
+## Congratulations
 
-Show what you did at our next work or lab meeting! Share a binder link with your co-workers.
+You've created and hosted your first Jupyter Notebook on Binder! Use this project as a template for your future reproducible science projects.
 
-Use this project as a template for your future reproducible science projects.
+Demo what you did at our next work or lab meeting! Share a binder link with your co-workers or tweet it.
+
+If you found this tutorial helpful, please click the __* Star__ button at the top-right corner of this repository!
 
 
 
