@@ -51,7 +51,7 @@ cp  <path>/<notebook.ipynb>  notebooks
 cp  -r  <path>/binder  .
 ```
 
-7. If you provided your own Jupyter Notebook(s), update dependencies in the `binder/environment.yml` file (do not include Jupyter and Jupyterlab as dependencies since they will be provided by MyBinder.org)
+7. If you used your own Jupyter Notebook(s), update dependencies in the `binder/environment.yml` file (do not include Jupyter and Jupyterlab as dependencies since they will be provided by MyBinder.org)
 
 8. Copy the LICENSE and .gitignore file from the ISMB tutorial
 ```
@@ -99,11 +99,11 @@ https://github.com/your-user-name/your-project
 
 1. Copy the GitHub URL of your project
 
-2. Go to MyBinder.org and paste in the GitHub URL. If your repository contains a single Notebook, create a specific link for the Notebook. Optionally, modify the launch link to use jupyter-lab ([see](../5-binder/Binder.pdf)).
+2. Go to [MyBinder.org](https://mybinder.org) and paste in the GitHub URL. If your repository contains a single Notebook, create a specific link for the Notebook. 
 
 3. Copy the Binder Badge Markdown text snippet.
 
-3. Paste the text snippet into your README.md file
+3. Paste the text snippet into your README.md file. Optionally, modify the launch link to use jupyter-lab ([see](../5-binder/Binder.pdf)).
 
 4. Add the modified README.md file to Git
 ```
