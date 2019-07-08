@@ -31,4 +31,6 @@ In this url, xxxx is the port Jupyter is running on and "sometoken" is a securit
 __3. Closing a Notebook__
 
 The easiest way to close all notebooks is to shut the JupyterLab GUI and then pressing `CTRL+C` within the terminal (MacOS/Linux) or Anaconda prompt (Windows) that you launched JupyterLab from.
-Alternatively, you can shutdown individual kernels from within the JupyterLab GUI. 
+Alternatively, you can shutdown individual kernels from within the JupyterLab GUI.
+
+Note that if you simply shut the browser window, you are not terminating your notebooks. They will remain running until you terminate them from within the GUI or from terminal / Anaconda prompt. You can see this by navigating back to the port where the notebook is running (see "Opening and Notebook"). 
