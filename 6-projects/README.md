@@ -1,0 +1,142 @@
+# Projects
+
+In the previous sesssions you were introduced to
+
+* How to setup a project in GitHub
+* How to create an environment in Conda
+* How to run a Jupyter Notebook
+* How to setup a project in Binder
+
+The goal of this session is to combine these steps and to create a project in your own GitHub account and then share and run it on Mybinder.org.
+
+You can either use one or more of the provided Jupyter Notebooks or use your own Jupyter Notebooks. 
+
+#### Provided Jupyter Notebooks
+
+This directory contains two subdirectories with example Notebooks and data files.
+* scop-class-prediction: a binary classification problem
+* 3D-visualization: a visualization example
+
+## Create your own project
+
+1. Check your current working directory (make sure that your are *not* inside the ISMB tutorial directory!)
+```
+pwd
+```
+
+2. Create a directory with your project name (no spaces)
+```
+mkdir <your-project>
+```
+
+3. cd into the project directory
+```
+cd <your-project>
+```
+
+4. Create a ```data``` directory and copy any required data files from this tutorial
+```
+mkdir data
+cp  <path>/<data-file>  data
+```
+
+5. Create a ```notebooks``` directory and copy either provided or your own Jupyter Notebook(s)
+```
+mkdir notebooks
+cp  <path>/<notebook.ipynb>  notebooks 
+```
+
+6. Copy the ```binder``` directory and its content from the ISMB tutorial
+```
+cp  -r  <path>/binder  .
+```
+
+7. If you provided your own Jupyter Notebook(s), update dependencies in the `binder/environment.yml` file (do not include Jupyter and Jupyterlab as dependencies since they will be provided by MyBinder.org)
+
+8. Copy the LICENSE and .gitignore file from the ISMB tutorial
+```
+cp  <path>/LICENSE  .
+cp  <path>/.gitignore  .
+```
+
+9. Using jupyter-lab, create a README.md file, add a brief description, and save the file. Preview the README.md in jupyter-lab.
+
+10. Run jupyter-lab and test your notebooks. You may need to change the path to your data files to match the directory structure.
+
+## Put your project under version control
+
+1. Create a Git repository (run `git init` in your project directory, use `pwd` to confirm location!)
+```
+git init
+```
+
+2. Show the files to be added to the repository
+```
+git status
+```
+
+3. Add all files
+```
+git add  .
+```
+
+4. Commit your files
+```
+git commit -m 'initial commit'
+```
+
+5. Push your files to GitHub
+```
+git push origin master
+```
+
+6. Open your GitHub project in a web browser and make sure all required files are present.
+```
+https://github.com/your-user-name/your-project
+```
+
+## Setup your project in MyBinder.org
+
+1. Copy the GitHub URL of your project
+
+2. Go to MyBinder.org and paste in the GitHub URL. If your repository contains a single Notebook, create a specific link for the Notebook. Optionally, modify the launch link to use jupyter-lab ([see](../5-binder/Binder.pdf)).
+
+3. Copy the Binder Badge Markdown text snippet.
+
+3. Paste the text snippet into your README.md file
+
+4. Add the modified README.md file to Git
+```
+git status
+git add README.md
+```
+
+5. Commit you changes
+```
+git commit -m "added binder badge"
+```
+
+6. Push the README.md file to GitHub
+```
+git push origin master
+```
+
+
+## Test your project
+
+1. Open your Git project in a web browser and click "Launch Binder".
+
+2. Wait, wait, ... it may take several minutes to build a binder image ... until Jupyter launches.
+
+3. Run your Notebooks on MyBinder
+
+Congratulations, you've created and hosted your first Jupyter Notebook on Binder! 
+
+Show what you did at our next work or lab meeting! Share a binder link with your co-workers.
+
+Use this project as a template for your future reproducible science projects.
+
+
+
+
+
