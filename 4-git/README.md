@@ -38,6 +38,37 @@ git add README.md
 git commit -m 'initial commit'
 ```
 
+Whenever we create or change a file, it will not be reflected in the repository until we add and commit the changes. For example, if we add some text to README.md and run `git status` we will find that there are untracked changes in the file:
+
+```
+git status
+echo 'Hello, git!' > README.md
+git status
+```
+
+Let's update the repository and run `git status` again:
+
+```
+git add README.md
+git commit -m 'updated readme'
+git status
+```
+
+Our changes are now recorded in the repository. This also applies to deleting files: deleting a filelocally does not remove it from the repository. To stage a file for deletion, we use the `git rm` command:
+
+```
+git rm README.md
+git commit -m 'delete README.md
+```
+
+If we want to revert this change, we can use the `git reset` command:
+
+```
+git reset HEAD
+```
+
+`HEAD` is a reference to the most recent commit on the current branch. 
+
 __Remote backup on GitHub__
 
 You've already created a local copy of a GitHub repository when you cloned the material for this tutorial. Cloning a repository creates a 
@@ -85,38 +116,3 @@ git pull origin master
 
 `pull` tells git to download changes from the remote repository and merge them into our local repository. 
 Just like `push` we can specify which remote server and branch we want to pull from.
-
-## Forking, branching, and merging
-
-So far we've seen how to create and manage a project by working on the master branch of a repository. Often when working on a project with multiple contributors on different 
-issues, it is beneficial to work on a separate branch to ensure our changes are isolated from the master branch until we are satisfied the code is complete and functional.
-In addition, we might want to build on or extend a project for which we are not already contributors. To accomplish this efficiently, we need to understand the concepts of
-forking, branching, and merging repositories.
-
-In this part of the tutorial, we'll create a fork of the tutorial repository to use as the remote origin for the version we cloned earlier. We'll create a 'development' branch
-to work on our changes, before merging with the master branch. Finally, we'll submit a pull request to the original repository on GitHub to add our work to the project.
-
-__Fork the original repository__
-
-When a repository is cloned, the remote origin of each branch will also be copied to the cloned repository. In the case of cloning a repository from Github, the remote origin will be the original GitHub repository. Chances are if you're cloning a project you found on GitHub you won't have contributor rights to the project, so will need to set an alternative origin if you want to host your changes to GitHub. Fortunately, by also forking the repository we cloned, we can set our fork as the remote origin for our repository and push our changes straight to GitHub.
-
-To fork a repository, simply navigate to the [repository](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows) on GitHub and click the 'fork' button.
-
-Boom! Now you have a copy of the repository you can edit. Your fork is completely independent of the original repository: changes there won't be reflected in the fork, and your changes won't be submitted to the original. We'll cover merging changes between forks later in the tutorial.
-
-First, let's set the forked repository as the remote for the tutorial repository we cloned earlier. Open a terminal (Linux/mac) or Git BASH session (Windows) and navigate to the repository:
-
-```
-cd reproducible-computational-workflows
-```
-
-To see the forked repository as the remote, we use the `git remote set-url` command:
-
-```
-git remote set-url <remote name> <remote url>
-```
-
-- `remote name` is the name of the remote we want to change. In this case it's 'origin'. To list all remotes associated with a repository, use the command `git remote -v`.
-- `remote url` is the new url we wish to set the remote to, in this case it's the url of our fork.
-
-We can now push and pull changes between the cloned repository and our fork on GitHub.
