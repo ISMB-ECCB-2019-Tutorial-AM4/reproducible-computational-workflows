@@ -26,7 +26,7 @@ conda install conda-build
 
 **2. Git** 
 
-We will be using git for version control. Installation instructions for all platforms can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You will also need to create a GitHub account if you don't already have one.
+We will be using git for version control. Installation instructions for all platforms can be found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). You will also need to create a GitHub account if you don't already have one ([here](https://github.com/join)).
 
 __Windows users__: If you are working on Windows, we strongly recommend installing Git BASH. This will provide a shell-like environment that emulates BASH and allows you to use the command line. You won't have access to git from Anaconda prompt, or conda from Git BASH. If you want to use git make sure you're in Git BASH. If you want to use conda (including Jupyter) make sure you're in Anaconda prompt. We recommend keeping both open so that you can navigate between the two.
 
