@@ -43,13 +43,13 @@ conda activate my-first-env  # Windows
 ```
 
 + Install a package:
-Let's install scipy, a popular open-source Python library for scientific computing.
+Let's install numpy, a popular open-source Python library for numeric computing, in particular matrix manipulation.
 ```
-conda install scipy
+conda install numpy
 ```
-We could also have specified which version of scipy to install:
+We could also have specified which version of numpy to install:
 ```
-conda install scipy=1.2.1
+conda install numpy=1.16.4
 ```
 
 __2. Export conda environment__
