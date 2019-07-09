@@ -10,6 +10,7 @@ dependencies:
   - seaborn
   - scikit-learn
   - ipywidgets==7.4.2
+  - nodejs
   - jupyter
   - jupyterlab
   - nb_conda_kernels
