@@ -37,9 +37,9 @@ conda list -n my-first-env
 
 + Activate the environment:
 You can install additional packages without activating the environment, but it's typically easier to do so from within the environment itself. Once we've activated the environment, all commands are executed within that environment.
+From either a terminal or an Anaconda prompt, to activate my-first-env run:
 ```
-source activate my-first-env # MacOS/Linux
-conda activate my-first-env  # Windows
+conda activate my-first-env
 ```
 
 + Install a package:
