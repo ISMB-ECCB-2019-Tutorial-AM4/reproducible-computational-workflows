@@ -12,7 +12,7 @@ While Conda was originally created for Python programs, it can package and distr
 
 ## Guide
 
-We'll be using conda to create an isolated Python installation that will form the basis of our reproducible workflow. We'll demonstrate (1) how to create a new conda environment from scratch, (2) how to export an environment so that others can create the same environment, (3) how to install an environment someone else has created.
+We'll be using conda to create an isolated Python installation that will form the basis of our reproducible workflow. We'll demonstrate (1) how to create a new conda environment from scratch, (2) how to export an environment so that others can create the same environment, (3) how to remove an environment, (4) how to install an environment someone else has created.
 
 __1. New conda environment from scratch__
 
@@ -63,11 +63,23 @@ Or if the environment is not active:
 conda env export -n my-first-env > my-first-env.yml
 ```
 
-__3. Install conda environment__
+__3. Remove conda environment__
+
+Removing an environment is relatively straightforward. To remove an environment, in your terminal window or an Anaconda Prompt, run:
+```
+conda remove --name my-first-env --all
+```
+We can verify that this successfully removed the environment by listing our environments:
+```
+conda info --envs
+```
+
+
+__4. Install conda environment__
 
 If you followed the instructions provided in the prerequisites, you will already have created an environment using a `.yml` file.
-Let's create a new environment that is the same as the above environment, using the `.yml` file that we produced.
+Let's recreate the environment that we just removed. This time, instead of creating it from scratch, we'll create it using the `.yml` file that we produced.
 
 ```
-conda env create -f my-first-env.yml -n duplicate-first-env
+conda env create -f my-first-env.yml -n my-first-env
 ```
