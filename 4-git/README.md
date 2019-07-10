@@ -116,3 +116,11 @@ git pull origin master
 
 `pull` tells git to download changes from the remote repository and merge them into our local repository. 
 Just like `push` we can specify which remote server and branch we want to pull from.
+
+For the rest of the tutorial we'll be demonstrating some of the web-based functionality provided by GitHub. At the bottom of this page are some useful resources for learning more about version control using git.
+
+__Useful resources__:
+
+-[git-scm](https://git-scm.com/) is the home of git and provides installation instructions and helpful tutorials.
+- [GitHub](https://guides.github.com/) provides a detailed series of guides ranging from getting started with git and code hosting to documenting and sharing your projects with the world.
+- [Atlassian](https://www.atlassian.com/git/tutorials) provide excellent git tutorials and guides on hosting your code on [Bitbucket](https://bitbucket.org/product), another source code hosting platform commonly used in enterprise.
