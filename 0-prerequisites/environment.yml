@@ -6,7 +6,7 @@ dependencies:
   - python=3.7
   - numpy
   - pandas
-  - matplotlib
+  - matplotlib=3.1.0
   - seaborn
   - scikit-learn
   - ipywidgets==7.4.2
