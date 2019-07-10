@@ -117,7 +117,7 @@ git pull origin master
 `pull` tells git to download changes from the remote repository and merge them into our local repository. 
 Just like `push` we can specify which remote server and branch we want to pull from.
 
-For the rest of the tutorial we'll be demonstrating some of the web-based functionality provided by GitHub. At the bottom of this page are some useful resources for learning more about version control using git.
+For the rest of the tutorial we'll be demonstrating some of the web-based functionality provided by GitHub. For more information and guides, check out the links below.
 
 __Useful resources__:
 
