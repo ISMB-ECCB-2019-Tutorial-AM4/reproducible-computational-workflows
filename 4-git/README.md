@@ -119,7 +119,7 @@ Just like `push` we can specify which remote server and branch we want to pull f
 
 For the rest of the tutorial we'll be demonstrating some of the web-based functionality provided by GitHub. For more information and guides, check out the links below.
 
-__Useful resources__:
+## Useful resources
 
 - [git-scm](https://git-scm.com/) is the home of git and provides installation instructions and helpful tutorials.
 - [GitHub](https://guides.github.com/) provides a detailed series of guides ranging from getting started with git and code hosting to documenting and sharing your projects with the world.
