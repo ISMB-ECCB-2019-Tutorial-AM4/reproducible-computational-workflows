@@ -4,14 +4,14 @@ channels:
   - rmg
 dependencies:
   - python=3.7
-  - numpy
-  - pandas
+  - numpy=1.16.4
+  - pandas=0.24.2
   - matplotlib=3.1.0
-  - seaborn
-  - scikit-learn
-  - ipywidgets==7.4.2
-  - nodejs
-  - jupyter
-  - jupyterlab
-  - nb_conda_kernels
-  - py3dmol
+  - seaborn=0.9.0
+  - scikit-learn=0.21.2
+  - ipywidgets=7.5.0
+  - nodejs=11.14.0
+  - jupyter=1.0.0
+  - jupyterlab=1.0.2
+  - nb_conda_kernels=2.2.2
+  - py3dmol=0.8.0
