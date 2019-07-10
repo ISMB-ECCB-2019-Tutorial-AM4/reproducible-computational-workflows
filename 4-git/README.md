@@ -58,7 +58,13 @@ Our changes are now recorded in the repository. This also applies to deleting fi
 
 ```
 git rm README.md
-git commit -m 'delete README.md
+git commit -m 'delete README.md'
+```
+
+If you just want to stop tracking changes to the file without deleting it from the file system, you can use the `--cached` option:
+
+```
+git rm --cached README.md
 ```
 
 If we want to revert this change, we can use the `git reset` command:
