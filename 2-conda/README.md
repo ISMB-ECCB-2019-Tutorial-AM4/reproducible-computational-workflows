@@ -83,3 +83,9 @@ Let's recreate the environment that we just removed. This time, instead of creat
 ```
 conda env create -f my-first-env.yml -n my-first-env
 ```
+
+## Useful Resources
+
+* [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+* [Conda documentation](https://docs.conda.io/projects/conda/en/latest/index.html), in particular the [Getting Started](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) guide. This covers all of the material above, and lots more.
+* [Anaconda](https://www.anaconda.com/) - a popular distribution of conda and the Python and R programming languages. Comes with many commly used packages for scientific computing present already, unlike [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
