@@ -32,3 +32,9 @@ The easiest way to close all notebooks is to shut the JupyterLab GUI and then pr
 Alternatively, you can shutdown individual kernels from within the JupyterLab GUI.
 
 Note that if you simply shut the browser window, you are not terminating your notebooks. They will remain running until you terminate them from within the GUI or from terminal / Anaconda prompt. You can see this by navigating back to the port where the notebook is running (see "Opening and Notebook"). 
+
+## Useful Resources
+
+* [Project Jupyter](https://jupyter.org/)
+* [NBViewer](https://nbviewer.jupyter.org/) - part of the Jupyter ecosystem that nicely renders notebooks that are hosted on GithHub or any other URL.
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - contains most of the commonly used markdown commands.
