@@ -11,9 +11,7 @@ jupyter-lab
 
 You do not need to be within a conda environment in order to have access to your conda environments, but if you don't have jupyter installed within your base conda environment, you will need to activate a conda environment with jupyter first.
 ```
-source activate ismb2019 # MacOS/Linux
-conda activate ismb2019  # Windows
-
+conda activate ismb2019
 jupyter-lab
 ```
 
