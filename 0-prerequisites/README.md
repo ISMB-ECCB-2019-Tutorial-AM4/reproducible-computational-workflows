@@ -44,6 +44,17 @@ The file `environment.yml` specifies the Python version and all packages require
 ```
 conda env create -f 0-prerequisites/environment.yml
 ```
+
+Activate the conda environment
+```
+conda activate ismb2019
+```
+
+Install Jupyter Lab extension for ipywidgets
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.0
+```
+
 **5. Bring your own project (optionally)**
 
 As part of the tutorial each participant will create a Git repository and share runnable Jupyter Notebooks on mybinder.org. We will provide simple sample Notebooks to work on, but if you have any Jupyter Notebooks that would like to work on, please bring them with you.
