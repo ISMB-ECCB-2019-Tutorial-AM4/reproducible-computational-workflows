@@ -21,7 +21,7 @@ This directory contains two subdirectories with example Notebooks and data files
 
 1. Follow the [instructions](https://help.github.com/en/articles/creating-a-new-repository) to create an empty repository on GitHub. 
 
-**Do initialise this repository with a README, licence, or .gitignore.**
+**Do not initialise this repository with a README, licence, or .gitignore file.**
 
 2. Check your current working directory (make sure that your are *not* inside the ISMB tutorial directory!)
 ```
