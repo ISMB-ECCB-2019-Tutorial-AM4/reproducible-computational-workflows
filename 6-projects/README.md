@@ -19,55 +19,60 @@ This directory contains two subdirectories with example Notebooks and data files
 
 ## Create your own project
 
-1. Check your current working directory (make sure that your are *not* inside the ISMB tutorial directory!)
+1. Follow the [instructions](https://help.github.com/en/articles/creating-a-new-repository) to create an empty repository on GitHub. 
+
+**Do initialise this repository with a README, licence, or .gitignore.**
+
+2. Check your current working directory (make sure that your are *not* inside the ISMB tutorial directory!)
 ```
 pwd
 ```
 
-2. Create a directory with your project name (no spaces)
+3. Create a directory with your project name (same name as the repository you've created on GitHub)
 ```
 mkdir <your-project>
 ```
 
-3. cd into the project directory
+4. cd into the project directory
 ```
 cd <your-project>
 ```
 
-4. Create a ```data``` directory and copy any required data files from this tutorial
+5. Create a ```data``` directory and copy any required data files from this tutorial
 ```
 mkdir data
 cp  <path>/<data-file>  data
 ```
 
-5. Create a ```notebooks``` directory and copy either provided or your own Jupyter Notebook(s)
+6. Create a ```notebooks``` directory and copy either provided or your own Jupyter Notebook(s)
 ```
 mkdir notebooks
 cp  <path>/<notebook.ipynb>  notebooks 
 ```
 
-6. Copy the ```binder``` directory and its content from the ISMB tutorial
+7. Copy the ```binder``` directory and its content from the ISMB tutorial
 ```
 cp  -r  <path>/binder  .
 ```
 
-7. If you used your own Jupyter Notebook(s), update dependencies in the `binder/environment.yml` file (do not include Jupyter and Jupyterlab as dependencies since they will be provided by MyBinder.org)
+8. If you used your own Jupyter Notebook(s), update dependencies in the `binder/environment.yml` file (do not include Jupyter and Jupyterlab as dependencies since they will be provided by MyBinder.org)
 
-8. Copy the LICENSE and .gitignore file from the ISMB tutorial
+9. Copy the LICENSE and .gitignore file from the ISMB tutorial
 ```
 cp  <path>/LICENSE  .
 cp  <path>/.gitignore  .
 ```
 
-9. Using jupyter-lab, create a README.md file, add a brief description, and save the file. Preview the README.md in jupyter-lab.
+11. Using jupyter-lab, create a README.md file, add a brief description, and save the file. Preview the README.md in jupyter-lab.
 
-10. Run jupyter-lab and test your notebooks. You may need to change the path to your data files to match the directory structure.
+12. Run jupyter-lab and test your notebooks. You may need to change the path to your data files to match the directory structure.
 
 ## Put your project under version control
 
-1. Create a Git repository (run `git init` in your project directory, use `pwd` to confirm location!)
+1. Create a Git repository (run `git init` in your project directory, use `pwd` to confirm location!) and add the remote location where your files are stored on GitHub.
 ```
 git init
+git remote add origin https://github.com/your-user-name/your-project.git
 ```
 
 2. Show the files to be added to the repository
