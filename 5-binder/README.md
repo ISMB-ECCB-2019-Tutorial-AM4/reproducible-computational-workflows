@@ -16,7 +16,7 @@ In this excercise we setup links (Binder Badges) to launch Jupyter Notebook and 
 
 1. Go to [Mybinder.org](https://mybinder.org) and paste in the URL of your forked repository
 ```
-https://github.com/<your-user-name>/reproducible-computational-workflows
+https://github.com/your-user-name/reproducible-computational-workflows
 ```
 
 
@@ -60,7 +60,7 @@ git push origin master
 
 9. In your web browser open
 ```
-https://github.com/<your-user-name>/reproducible-computational-workflows
+https://github.com/your-user-name/reproducible-computational-workflows
 ```
 
 10. Navigate to the ```5-binder``` directory
