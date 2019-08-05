@@ -38,9 +38,9 @@ On GitHub, navigate to the [ISMB-ECCB-2019-Tutorial-AM4/reproducible-computation
 
 In the top-right corner of the GitHub page, click ```Fork```.
 
-Then, download all materials to your laptop by cloning your copy of the repository, where ```<your-user-name>``` is your GitHub user name.
+Then, download all materials to your laptop by cloning your copy of the repository, where ```your-user-name``` is your GitHub user name.
 ```
-git clone https://github.com/<your-user-name>/reproducible-computational-workflows.git
+git clone https://github.com/your-user-name/reproducible-computational-workflows.git
 cd reproducible-computational-workflows
 ```
 
