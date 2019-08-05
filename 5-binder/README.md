@@ -14,7 +14,7 @@ In this excercise we setup links (Binder Badges) to launch Jupyter Notebook and 
 
 ### Add a binder badge for a specific Jupyter Notebook
 
-1. Go to [Mybinder.org](https://mybinder.org) and paste in the URL of your cloned repository
+1. Go to [Mybinder.org](https://mybinder.org) and paste in the URL of your forked repository
 ```
 https://github.com/<your-user-name>/reproducible-computational-workflows
 ```
@@ -31,7 +31,7 @@ https://github.com/<your-user-name>/reproducible-computational-workflows
 
 5. Paste the text snippet below
  
-*your Jupyter Notebook launch badge goes here ...*
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/master)
 
 ### Add a binder badge for Jupyter Lab
 
