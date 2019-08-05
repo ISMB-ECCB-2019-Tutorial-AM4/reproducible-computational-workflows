@@ -14,8 +14,8 @@ You can either use one or more of the provided Jupyter Notebooks or use your own
 #### Provided Jupyter Notebooks
 
 This directory contains two subdirectories with example Notebooks and data files.
-* scop-class-prediction: a binary classification problem
-* 3D-visualization: a visualization example
+* [scop-class-prediction: a binary classification problem](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects/scop-class-prediction)
+* [3D-visualization: a visualization example](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects/3D-visualization)
 
 ## Create your own project
 
@@ -38,13 +38,13 @@ mkdir <your-project>
 cd <your-project>
 ```
 
-5. Create a ```data``` directory and copy any required data files from this tutorial
+5. Create a ```data``` directory and copy any required data files from this tutorial. For example, the scop-class-prediction project requires theses [data files](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects/scop-class-prediction/data).
 ```
 mkdir data
 cp  <path>/<data-file>  data
 ```
 
-6. Create a ```notebooks``` directory and copy either provided or your own Jupyter Notebook(s)
+6. Create a ```notebooks``` directory and copy either [provided](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/tree/master/6-projects) or your own Jupyter Notebook(s) and any required .py files to the notebooks directory.
 ```
 mkdir notebooks
 cp  <path>/<notebook.ipynb>  notebooks 
