@@ -30,11 +30,17 @@ We will be using git for version control. Installation instructions for all plat
 
 __Windows users__: If you are working on Windows, we strongly recommend installing Git BASH. This will provide a shell-like environment that emulates BASH and allows you to use the command line. You won't have access to git from Anaconda prompt, or conda from Git BASH. If you want to use git make sure you're in Git BASH. If you want to use conda (including Jupyter) make sure you're in Anaconda prompt. We recommend keeping both open so that you can navigate between the two.
 
-**3. Download workshop materials**
+**3. Create a copy of the workshop materials**
 
-Download all materials by cloning this repository
+A [fork](https://help.github.com/en/articles/fork-a-repo) is a copy of a repository in your GitHub account. Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+On GitHub, navigate to the [ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows) repository.
+
+In the top-right corner of the GitHub page, click ```Fork```.
+
+Then, download all materials to your laptop by cloning your copy of the repository, where ```<your-user-name>``` is your GitHub user name.
 ```
-git clone https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows
+git clone https://github.com/<your-user-name>/reproducible-computational-workflows.git
 cd reproducible-computational-workflows
 ```
 
