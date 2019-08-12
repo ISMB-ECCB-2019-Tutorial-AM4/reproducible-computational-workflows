@@ -10,9 +10,15 @@ __Fergus Boyles__, _Oxford Protein Informatics Group, Department of Statistics, 
 
 __Fergus Imrie__, _Oxford Protein Informatics Group, Department of Statistics, University of Oxford, United Kingdom_
 
-### Introduction
+### Overview
 
-This repository contains all the materials for the above [ISMB/ECCB workshop](https://www.iscb.org/ismbeccb2019-program/tutorials#am4).
+This repository contains all the materials for the [ISMB/ECCB 2019 workshop: A Practical Introduction to Reproducible Computational Workflows](https://www.iscb.org/ismbeccb2019-program/tutorials#am4).
+
+This hands-on tutorial teaches participants the key requirements and practical skills to setup a reproducible and reusable computational research environment. The tutorial is intended for Python and R users, and anyone interested in using Jupyter Notebooks, which supports over 50 programming languages. We will work through a few bioinformatics use cases step by step, including biological visualization and machine learning. We will then share the results using [Binder](https://mybinder.org), a publicly hosted environment to run Jupyter Notebooks in a fully reproducible and interactive manner. We also cover collaborative development practices. After attending this workshop, participants should be able to set up their own projects by applying the principles and techniques learned and publish reproducible research protocols.
+
+### Audience
+
+This course is designed for everyone who would like to gain hands-on experience in setting up reproducible computational environments to their own projects. Introductory level Python skills are required and R skills are optional.
 
 ### Prerequisites
 
@@ -39,6 +45,9 @@ Jupyter Notebook
 Jupyter Lab
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/master?urlpath=lab)
+
+### Please Cite
+Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks. Rule A, Birmingham A, Zuniga C, Altintas I, Huang SC, Knight R, Moshiri N, Nguyen MH, Rosenthal SB, Pérez F, Rose PW. PLoS Comput Biol. 2019 Jul 25;15(7):e1007007. doi: [10.1371/journal.pcbi.1007007](https://doi.org/10.1371/journal.pcbi.1007007)
 
 ### Contact Us
 If you encounter any problems with this repository, please report them [here](https://github.com/ISMB-ECCB-2019-Tutorial-AM4/reproducible-computational-workflows/issues).
