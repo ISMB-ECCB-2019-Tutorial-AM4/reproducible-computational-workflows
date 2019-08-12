@@ -1,5 +1,6 @@
+[![GitHub License](https://img.shields.io/github/license/jupyter-guide/ten-rules-jupyter.svg)](https://github.com/sbl-sdsc/mmtf-spark/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/badge/Tweet--lightgrey.svg?logo=twitter&style=social)](https://twitter.com/peterwrose/status/1153796949411151878)
 # A Practical Introduction to Reproducible Computational Workflows
-
 ## ISMB / ECCB 2019, July 21, Basel, Switzerland
 
 __Peter W. Rose__, _Structural Bioinformatics Lab, San Diego Supercomputer Center, UC San Diego, USA_
